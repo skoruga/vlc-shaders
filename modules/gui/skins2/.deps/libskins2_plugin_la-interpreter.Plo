@@ -1,0 +1,620 @@
+libskins2_plugin_la-interpreter.lo: parser/interpreter.cpp \
+ parser/interpreter.hpp parser/../commands/cmd_generic.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/string \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stringfwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/char_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_algobase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/functexcept.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/cpp_type_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/type_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/numeric_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_pair.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/move.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/concept_check.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_funcs.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/debug/debug.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/postypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwchar \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wchar.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wctype.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/new_allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/localefwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++locale.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/clocale \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/locale.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iosfwd \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cctype \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream_insert.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cxxabi-forced.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_function.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward/binders.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/atomicity.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr-default.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/errno.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/atomic_word.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/initializer_list \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.tcc \
+ parser/../commands/../src/skin_common.hpp ../../../config.h \
+ ../../../include/vlc_fixups.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h \
+ ../../../include/vlc_common.h ../../../include/vlc_config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h \
+ ../../../include/vlc_mtime.h ../../../include/vlc_threads.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h \
+ ../../../include/vlc_arrays.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h \
+ ../../../include/vlc_messages.h ../../../include/vlc_objects.h \
+ ../../../include/vlc_variables.h ../../../include/vlc_modules.h \
+ ../../../include/vlc_main.h ../../../include/vlc_configuration.h \
+ ../../../include/vlc_interface.h ../../../include/vlc_charset.h \
+ ../../../include/vlc_fs.h parser/../commands/../utils/pointer.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/map \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_tree.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_map.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multimap.h \
+ parser/expr_evaluator.hpp parser/../src/skin_common.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/list \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_list.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/list.tcc \
+ parser/../commands/cmd_audio.hpp parser/../commands/cmd_generic.hpp \
+ parser/../commands/cmd_muxer.hpp parser/../commands/cmd_playlist.hpp \
+ parser/../commands/../utils/var_list.hpp \
+ parser/../commands/../utils/variable.hpp \
+ parser/../commands/../utils/../src/skin_common.hpp \
+ parser/../commands/../utils/pointer.hpp \
+ parser/../commands/../utils/observer.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/set \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_set.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multiset.h \
+ parser/../commands/../utils/ustring.hpp \
+ parser/../commands/../utils/var_percent.hpp \
+ parser/../commands/cmd_playtree.hpp \
+ parser/../commands/../utils/var_tree.hpp \
+ parser/../commands/cmd_dialogs.hpp parser/../commands/../src/dialogs.hpp \
+ parser/../commands/../src/skin_common.hpp \
+ parser/../commands/cmd_change_skin.hpp parser/../commands/cmd_dummy.hpp \
+ parser/../commands/cmd_dvd.hpp parser/../commands/cmd_layout.hpp \
+ parser/../commands/cmd_quit.hpp parser/../commands/cmd_minimize.hpp \
+ parser/../commands/cmd_input.hpp parser/../commands/cmd_fullscreen.hpp \
+ parser/../commands/cmd_on_top.hpp parser/../commands/cmd_show_window.hpp \
+ parser/../commands/../src/os_factory.hpp \
+ parser/../commands/../src/../utils/position.hpp \
+ parser/../commands/../src/../utils/variable.hpp \
+ parser/../commands/../src/../utils/observer.hpp \
+ parser/../commands/../src/../utils/pointer.hpp \
+ parser/../commands/../src/../src/generic_window.hpp \
+ parser/../commands/../src/../src/skin_common.hpp \
+ parser/../commands/../src/../src/../utils/var_bool.hpp \
+ parser/../commands/../src/../src/../utils/variable.hpp \
+ parser/../commands/../src/../src/../utils/observer.hpp \
+ parser/../commands/../src/top_window.hpp \
+ parser/../commands/../src/generic_window.hpp \
+ parser/../commands/../src/../utils/pointer.hpp \
+ parser/../commands/../src/window_manager.hpp \
+ parser/../commands/../src/top_window.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/utility \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_relops.h \
+ parser/../commands/../src/popup.hpp parser/../commands/cmd_snapshot.hpp \
+ parser/../src/theme.hpp parser/../src/generic_bitmap.hpp \
+ parser/../src/skin_common.hpp parser/../src/../utils/pointer.hpp \
+ parser/../src/../utils/position.hpp parser/../src/generic_font.hpp \
+ parser/../src/generic_layout.hpp parser/../src/top_window.hpp \
+ parser/../src/popup.hpp parser/../src/../src/window_manager.hpp \
+ parser/../src/../commands/cmd_generic.hpp \
+ parser/../src/../utils/bezier.hpp \
+ parser/../src/../utils/../src/skin_common.hpp \
+ parser/../src/../utils/pointer.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/vector \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_construct.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_uninitialized.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_vector.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_bvector.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/vector.tcc \
+ parser/../src/../utils/variable.hpp \
+ parser/../src/../controls/ctrl_generic.hpp \
+ parser/../src/../controls/../src/skin_common.hpp \
+ parser/../src/../controls/../utils/pointer.hpp \
+ parser/../src/../controls/../utils/ustring.hpp \
+ parser/../src/../controls/../utils/observer.hpp \
+ parser/../src/../controls/../commands/cmd_generic.hpp \
+ parser/../src/var_manager.hpp parser/../src/../utils/var_text.hpp \
+ parser/../src/../utils/variable.hpp \
+ parser/../src/../utils/var_percent.hpp \
+ parser/../src/../utils/observer.hpp parser/../src/../utils/ustring.hpp \
+ parser/../src/vlcproc.hpp ../../../include/vlc_input.h \
+ ../../../include/vlc_es.h ../../../include/vlc_fourcc.h \
+ ../../../include/vlc_meta.h ../../../include/vlc_epg.h \
+ ../../../include/vlc_events.h ../../../include/vlc_input_item.h \
+ ../../../include/vlc_vout.h ../../../include/vlc_picture.h \
+ ../../../include/vlc_filter.h ../../../include/vlc_subpicture.h \
+ ../../../include/vlc_text_style.h ../../../include/vlc_mouse.h \
+ parser/../src/../vars/equalizer.hpp \
+ parser/../src/../vars/../utils/var_percent.hpp \
+ parser/../src/../vars/playtree.hpp ../../../include/vlc_playlist.h \
+ parser/../src/../vars/../utils/var_tree.hpp \
+ parser/../src/../vars/time.hpp parser/../src/../vars/volume.hpp \
+ parser/../src/../utils/var_string.hpp \
+ parser/../src/../controls/ctrl_video.hpp \
+ parser/../src/../controls/ctrl_generic.hpp \
+ parser/../src/../controls/../utils/position.hpp \
+ parser/../src/../controls/../src/vout_window.hpp \
+ parser/../src/../controls/../src/generic_window.hpp \
+ ../../../include/vlc_vout_window.h
+
+parser/interpreter.hpp:
+
+parser/../commands/cmd_generic.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/string:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stringfwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/char_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_algobase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/functexcept.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/cpp_type_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/type_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/numeric_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_pair.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/move.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/concept_check.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_funcs.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/debug/debug.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/postypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwchar:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wchar.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wctype.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/new_allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/localefwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++locale.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/clocale:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/locale.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iosfwd:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cctype:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream_insert.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cxxabi-forced.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_function.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward/binders.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/atomicity.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr-default.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/errno.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/atomic_word.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/initializer_list:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.tcc:
+
+parser/../commands/../src/skin_common.hpp:
+
+../../../config.h:
+
+../../../include/vlc_fixups.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h:
+
+../../../include/vlc_common.h:
+
+../../../include/vlc_config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h:
+
+../../../include/vlc_mtime.h:
+
+../../../include/vlc_threads.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h:
+
+../../../include/vlc_arrays.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h:
+
+../../../include/vlc_messages.h:
+
+../../../include/vlc_objects.h:
+
+../../../include/vlc_variables.h:
+
+../../../include/vlc_modules.h:
+
+../../../include/vlc_main.h:
+
+../../../include/vlc_configuration.h:
+
+../../../include/vlc_interface.h:
+
+../../../include/vlc_charset.h:
+
+../../../include/vlc_fs.h:
+
+parser/../commands/../utils/pointer.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/map:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_tree.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_map.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multimap.h:
+
+parser/expr_evaluator.hpp:
+
+parser/../src/skin_common.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/list:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_list.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/list.tcc:
+
+parser/../commands/cmd_audio.hpp:
+
+parser/../commands/cmd_generic.hpp:
+
+parser/../commands/cmd_muxer.hpp:
+
+parser/../commands/cmd_playlist.hpp:
+
+parser/../commands/../utils/var_list.hpp:
+
+parser/../commands/../utils/variable.hpp:
+
+parser/../commands/../utils/../src/skin_common.hpp:
+
+parser/../commands/../utils/pointer.hpp:
+
+parser/../commands/../utils/observer.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/set:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_set.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multiset.h:
+
+parser/../commands/../utils/ustring.hpp:
+
+parser/../commands/../utils/var_percent.hpp:
+
+parser/../commands/cmd_playtree.hpp:
+
+parser/../commands/../utils/var_tree.hpp:
+
+parser/../commands/cmd_dialogs.hpp:
+
+parser/../commands/../src/dialogs.hpp:
+
+parser/../commands/../src/skin_common.hpp:
+
+parser/../commands/cmd_change_skin.hpp:
+
+parser/../commands/cmd_dummy.hpp:
+
+parser/../commands/cmd_dvd.hpp:
+
+parser/../commands/cmd_layout.hpp:
+
+parser/../commands/cmd_quit.hpp:
+
+parser/../commands/cmd_minimize.hpp:
+
+parser/../commands/cmd_input.hpp:
+
+parser/../commands/cmd_fullscreen.hpp:
+
+parser/../commands/cmd_on_top.hpp:
+
+parser/../commands/cmd_show_window.hpp:
+
+parser/../commands/../src/os_factory.hpp:
+
+parser/../commands/../src/../utils/position.hpp:
+
+parser/../commands/../src/../utils/variable.hpp:
+
+parser/../commands/../src/../utils/observer.hpp:
+
+parser/../commands/../src/../utils/pointer.hpp:
+
+parser/../commands/../src/../src/generic_window.hpp:
+
+parser/../commands/../src/../src/skin_common.hpp:
+
+parser/../commands/../src/../src/../utils/var_bool.hpp:
+
+parser/../commands/../src/../src/../utils/variable.hpp:
+
+parser/../commands/../src/../src/../utils/observer.hpp:
+
+parser/../commands/../src/top_window.hpp:
+
+parser/../commands/../src/generic_window.hpp:
+
+parser/../commands/../src/../utils/pointer.hpp:
+
+parser/../commands/../src/window_manager.hpp:
+
+parser/../commands/../src/top_window.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/utility:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_relops.h:
+
+parser/../commands/../src/popup.hpp:
+
+parser/../commands/cmd_snapshot.hpp:
+
+parser/../src/theme.hpp:
+
+parser/../src/generic_bitmap.hpp:
+
+parser/../src/skin_common.hpp:
+
+parser/../src/../utils/pointer.hpp:
+
+parser/../src/../utils/position.hpp:
+
+parser/../src/generic_font.hpp:
+
+parser/../src/generic_layout.hpp:
+
+parser/../src/top_window.hpp:
+
+parser/../src/popup.hpp:
+
+parser/../src/../src/window_manager.hpp:
+
+parser/../src/../commands/cmd_generic.hpp:
+
+parser/../src/../utils/bezier.hpp:
+
+parser/../src/../utils/../src/skin_common.hpp:
+
+parser/../src/../utils/pointer.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/vector:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_construct.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_uninitialized.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_vector.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_bvector.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/vector.tcc:
+
+parser/../src/../utils/variable.hpp:
+
+parser/../src/../controls/ctrl_generic.hpp:
+
+parser/../src/../controls/../src/skin_common.hpp:
+
+parser/../src/../controls/../utils/pointer.hpp:
+
+parser/../src/../controls/../utils/ustring.hpp:
+
+parser/../src/../controls/../utils/observer.hpp:
+
+parser/../src/../controls/../commands/cmd_generic.hpp:
+
+parser/../src/var_manager.hpp:
+
+parser/../src/../utils/var_text.hpp:
+
+parser/../src/../utils/variable.hpp:
+
+parser/../src/../utils/var_percent.hpp:
+
+parser/../src/../utils/observer.hpp:
+
+parser/../src/../utils/ustring.hpp:
+
+parser/../src/vlcproc.hpp:
+
+../../../include/vlc_input.h:
+
+../../../include/vlc_es.h:
+
+../../../include/vlc_fourcc.h:
+
+../../../include/vlc_meta.h:
+
+../../../include/vlc_epg.h:
+
+../../../include/vlc_events.h:
+
+../../../include/vlc_input_item.h:
+
+../../../include/vlc_vout.h:
+
+../../../include/vlc_picture.h:
+
+../../../include/vlc_filter.h:
+
+../../../include/vlc_subpicture.h:
+
+../../../include/vlc_text_style.h:
+
+../../../include/vlc_mouse.h:
+
+parser/../src/../vars/equalizer.hpp:
+
+parser/../src/../vars/../utils/var_percent.hpp:
+
+parser/../src/../vars/playtree.hpp:
+
+../../../include/vlc_playlist.h:
+
+parser/../src/../vars/../utils/var_tree.hpp:
+
+parser/../src/../vars/time.hpp:
+
+parser/../src/../vars/volume.hpp:
+
+parser/../src/../utils/var_string.hpp:
+
+parser/../src/../controls/ctrl_video.hpp:
+
+parser/../src/../controls/ctrl_generic.hpp:
+
+parser/../src/../controls/../utils/position.hpp:
+
+parser/../src/../controls/../src/vout_window.hpp:
+
+parser/../src/../controls/../src/generic_window.hpp:
+
+../../../include/vlc_vout_window.h:

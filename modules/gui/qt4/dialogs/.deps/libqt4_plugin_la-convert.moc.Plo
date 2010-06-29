@@ -1,0 +1,691 @@
+dialogs/libqt4_plugin_la-convert.moc.lo: dialogs/convert.moc.cpp \
+ dialogs/convert.hpp util/qvlcframe.hpp \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QWidget \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qwindowdefs.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qwindowdefs.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qobjectdefs.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qobjectdefs.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qnamespace.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qnamespace.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qglobal.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qglobal.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qconfig.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qconfig.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qfeatures.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qfeatures.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qwindowdefs_win.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qwindowdefs_win.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qobject.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qobject.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qstring.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstring.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qchar.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qchar.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qbytearray.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qbytearray.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qbasicatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qbasicatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_arch.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_arch.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_windows.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_windows.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_i386.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_i386.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qlist.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qlist.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qiterator.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qiterator.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qalgorithms.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qalgorithms.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qscopedpointer.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qscopedpointer.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qmargins.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qmargins.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qpaintdevice.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qpaintdevice.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qrect.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qrect.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qsize.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qsize.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qpoint.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qpoint.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qpalette.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qpalette.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qcolor.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qcolor.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qrgb.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qrgb.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qstringlist.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstringlist.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qdatastream.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/io/qdatastream.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qiodevice.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/io/qiodevice.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qregexp.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qregexp.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qstringmatcher.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstringmatcher.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qbrush.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qbrush.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qpair.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qpair.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qvector.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qvector.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qmatrix.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qmatrix.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qpolygon.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qpolygon.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qregion.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qregion.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qline.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qline.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qtransform.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qtransform.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qpainterpath.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qpainterpath.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qimage.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/image/qimage.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qpixmap.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/image/qpixmap.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qsharedpointer.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qsharedpointer.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qshareddata.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qshareddata.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qsharedpointer_impl.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qsharedpointer_impl.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qfont.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/text/qfont.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qfontmetrics.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/text/qfontmetrics.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qfontinfo.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/text/qfontinfo.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qsizepolicy.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qsizepolicy.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qcursor.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qcursor.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qkeysequence.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qkeysequence.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QDialog \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qdialog.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/dialogs/qdialog.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QHBoxLayout \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qboxlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qboxlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qlayoutitem.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qlayoutitem.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/limits.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qboxlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qgridlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qgridlayout.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QApplication \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qapplication.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qapplication.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qcoreapplication.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qcoreapplication.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qcoreevent.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qcoreevent.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qeventloop.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qeventloop.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QMainWindow \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qmainwindow.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/widgets/qmainwindow.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qtabwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/widgets/qtabwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qicon.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/image/qicon.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QKeyEvent \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qevent.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qevent.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qmime.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qmime.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qmimedata.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qmimedata.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qvariant.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qvariant.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qmetatype.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qmetatype.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qmap.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qmap.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qhash.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qhash.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qdrag.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qdrag.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qset.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qset.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QDesktopWidget \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qdesktopwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qdesktopwidget.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/QSettings \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qsettings.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/io/qsettings.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/QStyle \
+ C:/Msys/1.0/win32/include/qt4/QtGui/qstyle.h \
+ C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/styles/qstyle.h qt4.hpp \
+ ../../../config.h ../../../include/vlc_fixups.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h \
+ ../../../include/vlc_common.h ../../../include/vlc_config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h \
+ ../../../include/vlc_mtime.h ../../../include/vlc_threads.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h \
+ ../../../include/vlc_arrays.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h \
+ ../../../include/vlc_messages.h ../../../include/vlc_objects.h \
+ ../../../include/vlc_variables.h ../../../include/vlc_modules.h \
+ ../../../include/vlc_main.h ../../../include/vlc_configuration.h \
+ ../../../include/vlc_interface.h ../../../include/vlc_playlist.h \
+ ../../../include/vlc_input.h ../../../include/vlc_es.h \
+ ../../../include/vlc_fourcc.h ../../../include/vlc_meta.h \
+ ../../../include/vlc_epg.h ../../../include/vlc_events.h \
+ ../../../include/vlc_input_item.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/QString \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qstring.h
+
+dialogs/convert.hpp:
+
+util/qvlcframe.hpp:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QWidget:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qwindowdefs.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qwindowdefs.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qobjectdefs.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qobjectdefs.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qnamespace.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qnamespace.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qglobal.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qglobal.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qconfig.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qconfig.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qfeatures.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qfeatures.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qwindowdefs_win.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qwindowdefs_win.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qobject.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qobject.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qstring.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstring.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qchar.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qchar.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qbytearray.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qbytearray.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qbasicatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qbasicatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_arch.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_arch.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_windows.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_windows.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_i386.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_i386.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qlist.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qlist.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qiterator.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qiterator.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qalgorithms.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qalgorithms.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qscopedpointer.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qscopedpointer.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qmargins.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qmargins.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qpaintdevice.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qpaintdevice.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qrect.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qrect.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qsize.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qsize.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qpoint.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qpoint.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qpalette.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qpalette.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qcolor.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qcolor.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qrgb.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qrgb.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qstringlist.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstringlist.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qdatastream.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/io/qdatastream.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qiodevice.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/io/qiodevice.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qregexp.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qregexp.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qstringmatcher.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstringmatcher.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qbrush.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qbrush.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qpair.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qpair.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qvector.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qvector.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qmatrix.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qmatrix.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qpolygon.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qpolygon.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qregion.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qregion.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qline.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qline.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qtransform.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qtransform.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qpainterpath.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/painting/qpainterpath.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qimage.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/image/qimage.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qpixmap.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/image/qpixmap.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qsharedpointer.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qsharedpointer.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qshareddata.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qshareddata.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qsharedpointer_impl.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qsharedpointer_impl.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qfont.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/text/qfont.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qfontmetrics.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/text/qfontmetrics.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qfontinfo.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/text/qfontinfo.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qsizepolicy.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qsizepolicy.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qcursor.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qcursor.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qkeysequence.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qkeysequence.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QDialog:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qdialog.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/dialogs/qdialog.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QHBoxLayout:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qboxlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qboxlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qlayoutitem.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qlayoutitem.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/limits.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qboxlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qgridlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qgridlayout.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QApplication:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qapplication.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qapplication.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qcoreapplication.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qcoreapplication.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qcoreevent.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qcoreevent.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qeventloop.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qeventloop.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QMainWindow:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qmainwindow.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/widgets/qmainwindow.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qtabwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/widgets/qtabwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qicon.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/image/qicon.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QKeyEvent:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qevent.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qevent.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qmime.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qmime.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qmimedata.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qmimedata.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qvariant.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qvariant.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qmetatype.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/kernel/qmetatype.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qmap.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qmap.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qhash.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qhash.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qdrag.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qdrag.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qset.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qset.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QDesktopWidget:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qdesktopwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/kernel/qdesktopwidget.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/QSettings:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qsettings.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/io/qsettings.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/QStyle:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/qstyle.h:
+
+C:/Msys/1.0/win32/include/qt4/QtGui/../src/gui/styles/qstyle.h:
+
+qt4.hpp:
+
+../../../config.h:
+
+../../../include/vlc_fixups.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h:
+
+../../../include/vlc_common.h:
+
+../../../include/vlc_config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h:
+
+../../../include/vlc_mtime.h:
+
+../../../include/vlc_threads.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h:
+
+../../../include/vlc_arrays.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h:
+
+../../../include/vlc_messages.h:
+
+../../../include/vlc_objects.h:
+
+../../../include/vlc_variables.h:
+
+../../../include/vlc_modules.h:
+
+../../../include/vlc_main.h:
+
+../../../include/vlc_configuration.h:
+
+../../../include/vlc_interface.h:
+
+../../../include/vlc_playlist.h:
+
+../../../include/vlc_input.h:
+
+../../../include/vlc_es.h:
+
+../../../include/vlc_fourcc.h:
+
+../../../include/vlc_meta.h:
+
+../../../include/vlc_epg.h:
+
+../../../include/vlc_events.h:
+
+../../../include/vlc_input_item.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/QString:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qstring.h:

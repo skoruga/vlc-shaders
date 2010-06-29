@@ -1,0 +1,255 @@
+libschroedinger_plugin_la-schroedinger.lo: schroedinger.c ../../config.h \
+ ../../include/vlc_fixups.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h \
+ ../../include/vlc_common.h ../../include/vlc_config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdbool.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h \
+ ../../include/vlc_mtime.h ../../include/vlc_threads.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h \
+ ../../include/vlc_arrays.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h \
+ ../../include/vlc_messages.h ../../include/vlc_objects.h \
+ ../../include/vlc_variables.h ../../include/vlc_modules.h \
+ ../../include/vlc_main.h ../../include/vlc_configuration.h \
+ ../../include/vlc_plugin.h ../../include/vlc_codec.h \
+ ../../include/vlc_block.h ../../include/vlc_es.h \
+ ../../include/vlc_fourcc.h ../../include/vlc_picture.h \
+ ../../include/vlc_subpicture.h ../../include/vlc_text_style.h \
+ ../../include/vlc_sout.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schro.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroanalysis.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroencoder.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroutils.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schropack.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrobuffer.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroparams.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrobitstream.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroframe.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrodomain.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroasync.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrolimits.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrovideoformat.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroqueue.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schromotion.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrohistogram.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrolist.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroarith.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrodecoder.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrounpack.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrobufferlist.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroparse.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrodebug.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroengine.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrofilter.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schromotionest.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrophasecorrelation.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrossim.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrotables.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrowavelet.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrometric.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/limits.h \
+ C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroversion.h
+
+../../config.h:
+
+../../include/vlc_fixups.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h:
+
+../../include/vlc_common.h:
+
+../../include/vlc_config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdbool.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h:
+
+../../include/vlc_mtime.h:
+
+../../include/vlc_threads.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h:
+
+../../include/vlc_arrays.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h:
+
+../../include/vlc_messages.h:
+
+../../include/vlc_objects.h:
+
+../../include/vlc_variables.h:
+
+../../include/vlc_modules.h:
+
+../../include/vlc_main.h:
+
+../../include/vlc_configuration.h:
+
+../../include/vlc_plugin.h:
+
+../../include/vlc_codec.h:
+
+../../include/vlc_block.h:
+
+../../include/vlc_es.h:
+
+../../include/vlc_fourcc.h:
+
+../../include/vlc_picture.h:
+
+../../include/vlc_subpicture.h:
+
+../../include/vlc_text_style.h:
+
+../../include/vlc_sout.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schro.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroanalysis.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroencoder.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroutils.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schropack.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrobuffer.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroparams.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrobitstream.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroframe.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrodomain.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroasync.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrolimits.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrovideoformat.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroqueue.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schromotion.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrohistogram.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrolist.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroarith.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrodecoder.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrounpack.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrobufferlist.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroparse.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrodebug.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroengine.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrofilter.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schromotionest.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrophasecorrelation.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrossim.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrotables.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrowavelet.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schrometric.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/limits.h:
+
+C:/Msys/1.0/win32/include/schroedinger-1.0/schroedinger/schroversion.h:

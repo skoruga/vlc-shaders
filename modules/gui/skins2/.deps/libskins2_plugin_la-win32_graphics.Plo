@@ -1,0 +1,468 @@
+libskins2_plugin_la-win32_graphics.lo: win32/win32_graphics.cpp \
+ win32/win32_factory.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/cderr.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dde.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ddeml.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dlgs.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/imm.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/lzexpand.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/mmsystem.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/nb30.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcdce.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetyps.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcdcep.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcnsi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcnterr.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/shellapi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack2.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winperf.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/commdlg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/unknwn.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/objfwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wtypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcndr.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcnsip.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/prsht.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winspool.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsock2.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ole2.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/objbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/objidl.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/cguid.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/olectlid.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/oleauto.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/oaidl.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/oleidl.h \
+ win32/../src/os_factory.hpp win32/../src/skin_common.hpp \
+ ../../../config.h ../../../include/vlc_fixups.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h \
+ ../../../include/vlc_common.h ../../../include/vlc_config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h \
+ ../../../include/vlc_mtime.h ../../../include/vlc_threads.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h \
+ ../../../include/vlc_arrays.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h \
+ ../../../include/vlc_messages.h ../../../include/vlc_objects.h \
+ ../../../include/vlc_variables.h ../../../include/vlc_modules.h \
+ ../../../include/vlc_main.h ../../../include/vlc_configuration.h \
+ ../../../include/vlc_interface.h ../../../include/vlc_charset.h \
+ ../../../include/vlc_fs.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/string \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stringfwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/char_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_algobase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/functexcept.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/cpp_type_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/type_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/numeric_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_pair.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/move.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/concept_check.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_funcs.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/debug/debug.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/postypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwchar \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wchar.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wctype.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/new_allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/localefwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++locale.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/clocale \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/locale.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iosfwd \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cctype \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream_insert.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cxxabi-forced.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_function.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward/binders.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/atomicity.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr-default.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/errno.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/atomic_word.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/initializer_list \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.tcc \
+ win32/../src/../utils/position.hpp win32/../src/../utils/variable.hpp \
+ win32/../src/../utils/../src/skin_common.hpp \
+ win32/../src/../utils/pointer.hpp win32/../src/../utils/observer.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/set \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_tree.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_set.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multiset.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/list \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_list.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/list.tcc \
+ win32/../src/../src/generic_window.hpp \
+ win32/../src/../src/skin_common.hpp \
+ win32/../src/../src/../utils/var_bool.hpp \
+ win32/../src/../src/../utils/variable.hpp \
+ win32/../src/../src/../utils/observer.hpp \
+ win32/../src/generic_window.hpp \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/map \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_map.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multimap.h \
+ win32/win32_graphics.hpp win32/../src/os_graphics.hpp \
+ win32/../src/../utils/pointer.hpp win32/win32_window.hpp \
+ win32/../src/os_window.hpp win32/../src/generic_bitmap.hpp
+
+win32/win32_factory.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/cderr.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dde.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ddeml.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dlgs.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/imm.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/lzexpand.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/mmsystem.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/nb30.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcdce.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetyps.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcdcep.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcnsi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcnterr.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/shellapi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack2.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winperf.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/commdlg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/unknwn.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/objfwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wtypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcndr.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/rpcnsip.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/prsht.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winspool.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsock2.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ole2.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/objbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/objidl.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/cguid.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/olectlid.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/oleauto.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/oaidl.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/oleidl.h:
+
+win32/../src/os_factory.hpp:
+
+win32/../src/skin_common.hpp:
+
+../../../config.h:
+
+../../../include/vlc_fixups.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h:
+
+../../../include/vlc_common.h:
+
+../../../include/vlc_config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h:
+
+../../../include/vlc_mtime.h:
+
+../../../include/vlc_threads.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h:
+
+../../../include/vlc_arrays.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h:
+
+../../../include/vlc_messages.h:
+
+../../../include/vlc_objects.h:
+
+../../../include/vlc_variables.h:
+
+../../../include/vlc_modules.h:
+
+../../../include/vlc_main.h:
+
+../../../include/vlc_configuration.h:
+
+../../../include/vlc_interface.h:
+
+../../../include/vlc_charset.h:
+
+../../../include/vlc_fs.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/string:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stringfwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/char_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_algobase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/functexcept.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/cpp_type_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/type_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/numeric_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_pair.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/move.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/concept_check.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_funcs.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/debug/debug.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/postypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwchar:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wchar.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wctype.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/new_allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/localefwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++locale.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/clocale:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/locale.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iosfwd:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cctype:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream_insert.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cxxabi-forced.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_function.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward/binders.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/atomicity.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr-default.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/errno.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/atomic_word.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/initializer_list:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.tcc:
+
+win32/../src/../utils/position.hpp:
+
+win32/../src/../utils/variable.hpp:
+
+win32/../src/../utils/../src/skin_common.hpp:
+
+win32/../src/../utils/pointer.hpp:
+
+win32/../src/../utils/observer.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/set:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_tree.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_set.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multiset.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/list:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_list.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/list.tcc:
+
+win32/../src/../src/generic_window.hpp:
+
+win32/../src/../src/skin_common.hpp:
+
+win32/../src/../src/../utils/var_bool.hpp:
+
+win32/../src/../src/../utils/variable.hpp:
+
+win32/../src/../src/../utils/observer.hpp:
+
+win32/../src/generic_window.hpp:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/map:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_map.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_multimap.h:
+
+win32/win32_graphics.hpp:
+
+win32/../src/os_graphics.hpp:
+
+win32/../src/../utils/pointer.hpp:
+
+win32/win32_window.hpp:
+
+win32/../src/os_window.hpp:
+
+win32/../src/generic_bitmap.hpp:

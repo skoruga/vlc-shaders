@@ -1,0 +1,763 @@
+liblive555_plugin_la-live555.lo: live555.cpp ../../config.h \
+ ../../include/vlc_fixups.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h \
+ ../../include/vlc_common.h ../../include/vlc_config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h \
+ ../../include/vlc_mtime.h ../../include/vlc_threads.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h \
+ ../../include/vlc_arrays.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h \
+ ../../include/vlc_messages.h ../../include/vlc_objects.h \
+ ../../include/vlc_variables.h ../../include/vlc_modules.h \
+ ../../include/vlc_main.h ../../include/vlc_configuration.h \
+ ../../include/vlc_plugin.h ../../include/vlc_input.h \
+ ../../include/vlc_es.h ../../include/vlc_fourcc.h \
+ ../../include/vlc_meta.h ../../include/vlc_epg.h \
+ ../../include/vlc_events.h ../../include/vlc_input_item.h \
+ ../../include/vlc_demux.h ../../include/vlc_stream.h \
+ ../../include/vlc_block.h ../../include/vlc_es_out.h \
+ ../../include/vlc_dialog.h ../../include/vlc_url.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h \
+ ../../include/vlc_strings.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iostream \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ostream \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ios \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iosfwd \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stringfwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/postypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwchar \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wchar.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wctype.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/char_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_algobase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/functexcept.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/cpp_type_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/type_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/numeric_traits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_pair.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/move.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/concept_check.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_funcs.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/debug/debug.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/localefwd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++locale.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/clocale \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/locale.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cctype \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ios_base.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/atomicity.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr-default.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/errno.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/atomic_word.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_classes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/string \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/new_allocator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream_insert.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cxxabi-forced.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_function.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward/binders.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/initializer_list \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_classes.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/streambuf \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/streambuf.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_ios.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_facets.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwctype \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/ctype_base.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/streambuf_iterator.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/ctype_inline.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_facets.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_ios.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/istream \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/istream.tcc \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/limits.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/assert.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsock2.h \
+ C:/Msys/1.0/win32/include/UsageEnvironment.hh \
+ C:/Msys/1.0/win32/include/UsageEnvironment_version.hh \
+ C:/Msys/1.0/win32/include/NetCommon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ws2tcpip.h \
+ C:/Msys/1.0/win32/include/strDup.hh \
+ C:/Msys/1.0/win32/include/BasicUsageEnvironment.hh \
+ C:/Msys/1.0/win32/include/BasicUsageEnvironment0.hh \
+ C:/Msys/1.0/win32/include/BasicUsageEnvironment_version.hh \
+ C:/Msys/1.0/win32/include/DelayQueue.hh \
+ C:/Msys/1.0/win32/include/GroupsockHelper.hh \
+ C:/Msys/1.0/win32/include/NetAddress.hh \
+ C:/Msys/1.0/win32/include/HashTable.hh \
+ C:/Msys/1.0/win32/include/Boolean.hh \
+ C:/Msys/1.0/win32/include/liveMedia.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2AudioRTPSink.hh \
+ C:/Msys/1.0/win32/include/AudioRTPSink.hh \
+ C:/Msys/1.0/win32/include/MultiFramedRTPSink.hh \
+ C:/Msys/1.0/win32/include/RTPSink.hh \
+ C:/Msys/1.0/win32/include/MediaSink.hh \
+ C:/Msys/1.0/win32/include/FramedSource.hh \
+ C:/Msys/1.0/win32/include/MediaSource.hh \
+ C:/Msys/1.0/win32/include/Media.hh \
+ C:/Msys/1.0/win32/include/liveMedia_version.hh \
+ C:/Msys/1.0/win32/include/RTPInterface.hh \
+ C:/Msys/1.0/win32/include/Groupsock.hh \
+ C:/Msys/1.0/win32/include/groupsock_version.hh \
+ C:/Msys/1.0/win32/include/NetInterface.hh \
+ C:/Msys/1.0/win32/include/GroupEId.hh \
+ C:/Msys/1.0/win32/include/MP3ADURTPSink.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2VideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/VideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/MPEG4ESVideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/AMRAudioFileSink.hh \
+ C:/Msys/1.0/win32/include/FileSink.hh \
+ C:/Msys/1.0/win32/include/H264VideoFileSink.hh \
+ C:/Msys/1.0/win32/include/BasicUDPSink.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2VideoHTTPSink.hh \
+ C:/Msys/1.0/win32/include/HTTPSink.hh \
+ C:/Msys/1.0/win32/include/GSMAudioRTPSink.hh \
+ C:/Msys/1.0/win32/include/H263plusVideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/H264VideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/FramedFilter.hh \
+ C:/Msys/1.0/win32/include/DVVideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/MultiFramedRTPSource.hh \
+ C:/Msys/1.0/win32/include/RTPSource.hh \
+ C:/Msys/1.0/win32/include/DVVideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/DVVideoStreamFramer.hh \
+ C:/Msys/1.0/win32/include/H264VideoStreamFramer.hh \
+ C:/Msys/1.0/win32/include/JPEGVideoRTPSink.hh \
+ C:/Msys/1.0/win32/include/SimpleRTPSink.hh \
+ C:/Msys/1.0/win32/include/uLawAudioFilter.hh \
+ C:/Msys/1.0/win32/include/MPEG2IndexFromTransportStream.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportStreamTrickModeFilter.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportStreamIndexFile.hh \
+ C:/Msys/1.0/win32/include/ByteStreamMultiFileSource.hh \
+ C:/Msys/1.0/win32/include/ByteStreamFileSource.hh \
+ C:/Msys/1.0/win32/include/FramedFileSource.hh \
+ C:/Msys/1.0/win32/include/BasicUDPSource.hh \
+ C:/Msys/1.0/win32/include/SimpleRTPSource.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2AudioRTPSource.hh \
+ C:/Msys/1.0/win32/include/MPEG4LATMAudioRTPSource.hh \
+ C:/Msys/1.0/win32/include/MPEG4LATMAudioRTPSink.hh \
+ C:/Msys/1.0/win32/include/MPEG4ESVideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/MPEG4GenericRTPSource.hh \
+ C:/Msys/1.0/win32/include/MP3ADURTPSource.hh \
+ C:/Msys/1.0/win32/include/QCELPAudioRTPSource.hh \
+ C:/Msys/1.0/win32/include/AMRAudioRTPSource.hh \
+ C:/Msys/1.0/win32/include/AMRAudioSource.hh \
+ C:/Msys/1.0/win32/include/JPEGVideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/JPEGVideoSource.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2VideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportStreamFromPESSource.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportStreamMultiplexor.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2Demux.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2DemuxedElementaryStream.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportStreamFromESSource.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportStreamFramer.hh \
+ C:/Msys/1.0/win32/include/ADTSAudioFileSource.hh \
+ C:/Msys/1.0/win32/include/H261VideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/H263plusVideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/H264VideoRTPSource.hh \
+ C:/Msys/1.0/win32/include/MP3HTTPSource.hh \
+ C:/Msys/1.0/win32/include/MP3FileSource.hh \
+ C:/Msys/1.0/win32/include/MP3ADU.hh \
+ C:/Msys/1.0/win32/include/MP3ADUinterleaving.hh \
+ C:/Msys/1.0/win32/include/MP3Transcoder.hh \
+ C:/Msys/1.0/win32/include/MP3ADUTranscoder.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2AudioStreamFramer.hh \
+ C:/Msys/1.0/win32/include/H263plusVideoStreamFramer.hh \
+ C:/Msys/1.0/win32/include/AC3AudioStreamFramer.hh \
+ C:/Msys/1.0/win32/include/AC3AudioRTPSource.hh \
+ C:/Msys/1.0/win32/include/AC3AudioRTPSink.hh \
+ C:/Msys/1.0/win32/include/MPEG4GenericRTPSink.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2VideoStreamDiscreteFramer.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2VideoStreamFramer.hh \
+ C:/Msys/1.0/win32/include/MPEGVideoStreamFramer.hh \
+ C:/Msys/1.0/win32/include/MPEG4VideoStreamDiscreteFramer.hh \
+ C:/Msys/1.0/win32/include/MPEG4VideoStreamFramer.hh \
+ C:/Msys/1.0/win32/include/DeviceSource.hh \
+ C:/Msys/1.0/win32/include/AudioInputDevice.hh \
+ C:/Msys/1.0/win32/include/WAVAudioFileSource.hh \
+ C:/Msys/1.0/win32/include/RTSPServer.hh \
+ C:/Msys/1.0/win32/include/ServerMediaSession.hh \
+ C:/Msys/1.0/win32/include/DigestAuthentication.hh \
+ C:/Msys/1.0/win32/include/RTSPOverHTTPServer.hh \
+ C:/Msys/1.0/win32/include/RTSPClient.hh \
+ C:/Msys/1.0/win32/include/MediaSession.hh \
+ C:/Msys/1.0/win32/include/RTCP.hh C:/Msys/1.0/win32/include/SIPClient.hh \
+ C:/Msys/1.0/win32/include/QuickTimeFileSink.hh \
+ C:/Msys/1.0/win32/include/QuickTimeGenericRTPSource.hh \
+ C:/Msys/1.0/win32/include/AVIFileSink.hh \
+ C:/Msys/1.0/win32/include/PassiveServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/MPEG4VideoFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/FileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/OnDemandServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/WAVAudioFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/AMRAudioFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/AMRAudioFileSource.hh \
+ C:/Msys/1.0/win32/include/AMRAudioRTPSink.hh \
+ C:/Msys/1.0/win32/include/MP3AudioFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2VideoFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/MPEG1or2FileServerDemux.hh \
+ C:/Msys/1.0/win32/include/MPEG2TransportFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/H263plusVideoFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/ADTSAudioFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/DVVideoFileServerMediaSubsession.hh \
+ C:/Msys/1.0/win32/include/DarwinInjector.hh ../access/mms/asf.h
+
+../../config.h:
+
+../../include/vlc_fixups.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h:
+
+../../include/vlc_common.h:
+
+../../include/vlc_config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h:
+
+../../include/vlc_mtime.h:
+
+../../include/vlc_threads.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h:
+
+../../include/vlc_arrays.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h:
+
+../../include/vlc_messages.h:
+
+../../include/vlc_objects.h:
+
+../../include/vlc_variables.h:
+
+../../include/vlc_modules.h:
+
+../../include/vlc_main.h:
+
+../../include/vlc_configuration.h:
+
+../../include/vlc_plugin.h:
+
+../../include/vlc_input.h:
+
+../../include/vlc_es.h:
+
+../../include/vlc_fourcc.h:
+
+../../include/vlc_meta.h:
+
+../../include/vlc_epg.h:
+
+../../include/vlc_events.h:
+
+../../include/vlc_input_item.h:
+
+../../include/vlc_demux.h:
+
+../../include/vlc_stream.h:
+
+../../include/vlc_block.h:
+
+../../include/vlc_es_out.h:
+
+../../include/vlc_dialog.h:
+
+../../include/vlc_url.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ctype.h:
+
+../../include/vlc_strings.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iostream:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ostream:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ios:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/iosfwd:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stringfwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/postypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwchar:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wchar.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wctype.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/char_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_algobase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/functexcept.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/cpp_type_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/type_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/numeric_traits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_pair.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/move.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/concept_check.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator_base_funcs.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_iterator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/debug/debug.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/localefwd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++locale.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/clocale:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/locale.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cctype:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ios_base.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/atomicity.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/gthr-default.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/errno.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/atomic_word.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_classes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/string:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/ext/new_allocator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream_insert.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cxxabi-forced.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/stl_function.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward/binders.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/initializer_list:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_string.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_classes.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/streambuf:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/streambuf.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_ios.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_facets.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cwctype:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/ctype_base.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/streambuf_iterator.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/ctype_inline.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/locale_facets.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/basic_ios.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/ostream.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/istream:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/bits/istream.tcc:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/limits.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/assert.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsock2.h:
+
+C:/Msys/1.0/win32/include/UsageEnvironment.hh:
+
+C:/Msys/1.0/win32/include/UsageEnvironment_version.hh:
+
+C:/Msys/1.0/win32/include/NetCommon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/ws2tcpip.h:
+
+C:/Msys/1.0/win32/include/strDup.hh:
+
+C:/Msys/1.0/win32/include/BasicUsageEnvironment.hh:
+
+C:/Msys/1.0/win32/include/BasicUsageEnvironment0.hh:
+
+C:/Msys/1.0/win32/include/BasicUsageEnvironment_version.hh:
+
+C:/Msys/1.0/win32/include/DelayQueue.hh:
+
+C:/Msys/1.0/win32/include/GroupsockHelper.hh:
+
+C:/Msys/1.0/win32/include/NetAddress.hh:
+
+C:/Msys/1.0/win32/include/HashTable.hh:
+
+C:/Msys/1.0/win32/include/Boolean.hh:
+
+C:/Msys/1.0/win32/include/liveMedia.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2AudioRTPSink.hh:
+
+C:/Msys/1.0/win32/include/AudioRTPSink.hh:
+
+C:/Msys/1.0/win32/include/MultiFramedRTPSink.hh:
+
+C:/Msys/1.0/win32/include/RTPSink.hh:
+
+C:/Msys/1.0/win32/include/MediaSink.hh:
+
+C:/Msys/1.0/win32/include/FramedSource.hh:
+
+C:/Msys/1.0/win32/include/MediaSource.hh:
+
+C:/Msys/1.0/win32/include/Media.hh:
+
+C:/Msys/1.0/win32/include/liveMedia_version.hh:
+
+C:/Msys/1.0/win32/include/RTPInterface.hh:
+
+C:/Msys/1.0/win32/include/Groupsock.hh:
+
+C:/Msys/1.0/win32/include/groupsock_version.hh:
+
+C:/Msys/1.0/win32/include/NetInterface.hh:
+
+C:/Msys/1.0/win32/include/GroupEId.hh:
+
+C:/Msys/1.0/win32/include/MP3ADURTPSink.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2VideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/VideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/MPEG4ESVideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/AMRAudioFileSink.hh:
+
+C:/Msys/1.0/win32/include/FileSink.hh:
+
+C:/Msys/1.0/win32/include/H264VideoFileSink.hh:
+
+C:/Msys/1.0/win32/include/BasicUDPSink.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2VideoHTTPSink.hh:
+
+C:/Msys/1.0/win32/include/HTTPSink.hh:
+
+C:/Msys/1.0/win32/include/GSMAudioRTPSink.hh:
+
+C:/Msys/1.0/win32/include/H263plusVideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/H264VideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/FramedFilter.hh:
+
+C:/Msys/1.0/win32/include/DVVideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MultiFramedRTPSource.hh:
+
+C:/Msys/1.0/win32/include/RTPSource.hh:
+
+C:/Msys/1.0/win32/include/DVVideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/DVVideoStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/H264VideoStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/JPEGVideoRTPSink.hh:
+
+C:/Msys/1.0/win32/include/SimpleRTPSink.hh:
+
+C:/Msys/1.0/win32/include/uLawAudioFilter.hh:
+
+C:/Msys/1.0/win32/include/MPEG2IndexFromTransportStream.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportStreamTrickModeFilter.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportStreamIndexFile.hh:
+
+C:/Msys/1.0/win32/include/ByteStreamMultiFileSource.hh:
+
+C:/Msys/1.0/win32/include/ByteStreamFileSource.hh:
+
+C:/Msys/1.0/win32/include/FramedFileSource.hh:
+
+C:/Msys/1.0/win32/include/BasicUDPSource.hh:
+
+C:/Msys/1.0/win32/include/SimpleRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2AudioRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG4LATMAudioRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG4LATMAudioRTPSink.hh:
+
+C:/Msys/1.0/win32/include/MPEG4ESVideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG4GenericRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MP3ADURTPSource.hh:
+
+C:/Msys/1.0/win32/include/QCELPAudioRTPSource.hh:
+
+C:/Msys/1.0/win32/include/AMRAudioRTPSource.hh:
+
+C:/Msys/1.0/win32/include/AMRAudioSource.hh:
+
+C:/Msys/1.0/win32/include/JPEGVideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/JPEGVideoSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2VideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportStreamFromPESSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportStreamMultiplexor.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2Demux.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2DemuxedElementaryStream.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportStreamFromESSource.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/ADTSAudioFileSource.hh:
+
+C:/Msys/1.0/win32/include/H261VideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/H263plusVideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/H264VideoRTPSource.hh:
+
+C:/Msys/1.0/win32/include/MP3HTTPSource.hh:
+
+C:/Msys/1.0/win32/include/MP3FileSource.hh:
+
+C:/Msys/1.0/win32/include/MP3ADU.hh:
+
+C:/Msys/1.0/win32/include/MP3ADUinterleaving.hh:
+
+C:/Msys/1.0/win32/include/MP3Transcoder.hh:
+
+C:/Msys/1.0/win32/include/MP3ADUTranscoder.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2AudioStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/H263plusVideoStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/AC3AudioStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/AC3AudioRTPSource.hh:
+
+C:/Msys/1.0/win32/include/AC3AudioRTPSink.hh:
+
+C:/Msys/1.0/win32/include/MPEG4GenericRTPSink.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2VideoStreamDiscreteFramer.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2VideoStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/MPEGVideoStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/MPEG4VideoStreamDiscreteFramer.hh:
+
+C:/Msys/1.0/win32/include/MPEG4VideoStreamFramer.hh:
+
+C:/Msys/1.0/win32/include/DeviceSource.hh:
+
+C:/Msys/1.0/win32/include/AudioInputDevice.hh:
+
+C:/Msys/1.0/win32/include/WAVAudioFileSource.hh:
+
+C:/Msys/1.0/win32/include/RTSPServer.hh:
+
+C:/Msys/1.0/win32/include/ServerMediaSession.hh:
+
+C:/Msys/1.0/win32/include/DigestAuthentication.hh:
+
+C:/Msys/1.0/win32/include/RTSPOverHTTPServer.hh:
+
+C:/Msys/1.0/win32/include/RTSPClient.hh:
+
+C:/Msys/1.0/win32/include/MediaSession.hh:
+
+C:/Msys/1.0/win32/include/RTCP.hh:
+
+C:/Msys/1.0/win32/include/SIPClient.hh:
+
+C:/Msys/1.0/win32/include/QuickTimeFileSink.hh:
+
+C:/Msys/1.0/win32/include/QuickTimeGenericRTPSource.hh:
+
+C:/Msys/1.0/win32/include/AVIFileSink.hh:
+
+C:/Msys/1.0/win32/include/PassiveServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/MPEG4VideoFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/FileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/OnDemandServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/WAVAudioFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/AMRAudioFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/AMRAudioFileSource.hh:
+
+C:/Msys/1.0/win32/include/AMRAudioRTPSink.hh:
+
+C:/Msys/1.0/win32/include/MP3AudioFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2VideoFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/MPEG1or2FileServerDemux.hh:
+
+C:/Msys/1.0/win32/include/MPEG2TransportFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/H263plusVideoFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/ADTSAudioFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/DVVideoFileServerMediaSubsession.hh:
+
+C:/Msys/1.0/win32/include/DarwinInjector.hh:
+
+../access/mms/asf.h:

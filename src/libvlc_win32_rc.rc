@@ -1,0 +1,24 @@
+#define VERSION_NUMBER 1,2,0,99
+
+1 VERSIONINFO
+FILETYPE 1
+FILEOS 4
+PRODUCTVERSION VERSION_NUMBER
+FILEVERSION VERSION_NUMBER
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "the VideoLAN Team"
+      VALUE "FileVersion", "1.2.0-git" 
+      VALUE "FileDescription", "VLC media player"
+      VALUE "LegalCopyright", "(c) 1996-2010 the VideoLAN Team"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
+

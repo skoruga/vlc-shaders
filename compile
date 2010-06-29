@@ -1,0 +1,9 @@
+#! /bin/sh
+rm -f .error$$
+ERROR=0
+export PATH=/win32/bin/:.:/usr/local/bin:/mingw/bin:/bin:/c/Program Files/Common Files/Microsoft Shared/Windows Live:/c/Apps/MiKTeX 2.8/miktex/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Program Files/Microsoft SQL Server/100/Tools/Binn/:/c/Program Files/Microsoft SQL Server/100/DTS/Binn/:/c/Apps/MySQL/MySQL Server 5.1/bin:/c/Apps/Objective Caml/bin:/c/Apps/SlikSvn/bin/:/c/Program Files/QuickTime/QTSystem/:/c/Program Files/GTK2-Runtime/bin:/c/Program Files/Common Files/Autodesk Shared/:/c/Program Files/Autodesk/Backburner/:/c/Apps/Git/cmd:/c/Apps/Git/bin:/c/Apps/TortoiseGit/bin:/c/Program Files/Common Files/Microsoft Shared/Windows Live:/c/Program Files/MySQL/MySQL Server 5.0/lib/debug LANG=C
+(make V=1 $@ 2>&1 || touch .error$$)| \
+`sed -ne "s/^top_srcdir *= *//p" < Makefile`/extras/buildsystem/make.pl
+test -f .error$$ && ERROR=1
+rm -f .error$$
+exit $ERROR

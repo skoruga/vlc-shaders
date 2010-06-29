@@ -1,0 +1,281 @@
+components/playlist/libqt4_plugin_la-playlist_item.lo: \
+ components/playlist/playlist_item.cpp ../../../config.h \
+ ../../../include/vlc_fixups.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/assert.h \
+ qt4.hpp ../../../include/vlc_common.h ../../../include/vlc_config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h \
+ ../../../include/vlc_mtime.h ../../../include/vlc_threads.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h \
+ ../../../include/vlc_arrays.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h \
+ ../../../include/vlc_messages.h ../../../include/vlc_objects.h \
+ ../../../include/vlc_variables.h ../../../include/vlc_modules.h \
+ ../../../include/vlc_main.h ../../../include/vlc_configuration.h \
+ ../../../include/vlc_interface.h ../../../include/vlc_playlist.h \
+ ../../../include/vlc_input.h ../../../include/vlc_es.h \
+ ../../../include/vlc_fourcc.h ../../../include/vlc_meta.h \
+ ../../../include/vlc_epg.h ../../../include/vlc_events.h \
+ ../../../include/vlc_input_item.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/QString \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qstring.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstring.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qchar.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qchar.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qglobal.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qglobal.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qconfig.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qconfig.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qfeatures.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qfeatures.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qbytearray.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qbytearray.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qbasicatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qbasicatomic.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_arch.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_arch.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_windows.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_windows.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_i386.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_i386.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qnamespace.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qnamespace.h \
+ components/playlist/playlist_item.hpp \
+ C:/Msys/1.0/win32/include/qt4/QtCore/QList \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qlist.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qlist.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qiterator.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qiterator.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/qalgorithms.h \
+ C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qalgorithms.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h \
+ c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception \
+ ../../../include/vlc_intf_strings.h components/playlist/sorting.h
+
+../../../config.h:
+
+../../../include/vlc_fixups.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/time.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/_mingw.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stddef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdio.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/stdarg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/types.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/dirent.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/io.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/assert.h:
+
+qt4.hpp:
+
+../../../include/vlc_common.h:
+
+../../../include/vlc_config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdlib.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/string.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/inttypes.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/stdint.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/malloc.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/sys/stat.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windows.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/windef.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnt.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winerror.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/basetsd.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/pshpack4.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/poppack.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wincon.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winbase.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/wingdi.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winuser.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnls.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winver.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winnetwk.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winreg.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/winsvc.h:
+
+../../../include/vlc_mtime.h:
+
+../../../include/vlc_threads.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/process.h:
+
+../../../include/vlc_arrays.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include/tchar.h:
+
+../../../include/vlc_messages.h:
+
+../../../include/vlc_objects.h:
+
+../../../include/vlc_variables.h:
+
+../../../include/vlc_modules.h:
+
+../../../include/vlc_main.h:
+
+../../../include/vlc_configuration.h:
+
+../../../include/vlc_interface.h:
+
+../../../include/vlc_playlist.h:
+
+../../../include/vlc_input.h:
+
+../../../include/vlc_es.h:
+
+../../../include/vlc_fourcc.h:
+
+../../../include/vlc_meta.h:
+
+../../../include/vlc_epg.h:
+
+../../../include/vlc_events.h:
+
+../../../include/vlc_input_item.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/QString:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qstring.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qstring.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qchar.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qchar.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qglobal.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qglobal.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qconfig.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qconfig.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qfeatures.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qfeatures.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qbytearray.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qbytearray.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qbasicatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/thread/qbasicatomic.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_arch.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_arch.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_windows.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_windows.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qatomic_i386.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/arch/qatomic_i386.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qnamespace.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/global/qnamespace.h:
+
+components/playlist/playlist_item.hpp:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/QList:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qlist.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qlist.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qiterator.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qiterator.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/qalgorithms.h:
+
+C:/Msys/1.0/win32/include/qt4/QtCore/../src/corelib/tools/qalgorithms.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/new:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/cstddef:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/c++config.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/os_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32/bits/cpu_defines.h:
+
+c:\apps\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/exception:
+
+../../../include/vlc_intf_strings.h:
+
+components/playlist/sorting.h:

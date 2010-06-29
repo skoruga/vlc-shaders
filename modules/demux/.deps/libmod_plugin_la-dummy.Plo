@@ -1,0 +1,1 @@
+libmod_plugin_la-dummy.lo: dummy.cpp

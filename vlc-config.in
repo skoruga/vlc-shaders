@@ -1,0 +1,605 @@
+#!@SHELL@
+
+prefix="@prefix@"
+exec_prefix="@exec_prefix@"
+exec_prefix_set=no
+datarootdir="@datarootdir@"
+
+debug="yes"
+gprof="no"
+cprof="no"
+optim="speed"
+
+plugins="a52tofloat32 access_output_shout access_realrtsp access_smb aout_directx aout_sdl atmo avcodec bda caca cdda direct3d directx dmo dshow dtstofloat32 dvdnav dvdread faad flac fluidsynth freetype globalhotkeys glwin32 gnutls goom kate libass libmpeg2 live555 mod mpgatofixed32 mux_ogg mux_ts ogg oldhttp osd_parser osdmenu panoramix png portaudio postproc projectm qt4 quicktime realvideo remoteosd schroedinger screen sdl_image skins2 speex stream_out_raop swscale theora ts twolame unzip vcd visual vorbis vout_sdl waveout wingdi x264 xml zip zvbi "
+builtins=" "
+
+cppflags=""
+cflags=""
+cxxflags=""
+objcflags=""
+ldflags=""
+libs=""
+
+cflags_tuning="-mtune=pentium2"
+cflags_optim_size=" -Os"
+cflags_optim_speed=" -O2 -ffast-math -funroll-loops"
+cflags_optim_nodebug=" -fomit-frame-pointer"
+cflags_nooptim=" -O0"
+
+#
+#  Do not touch below this place unless you really know what you are doing
+#
+usage()
+{
+        cat << BLAH
+Usage: vlc-config OPTIONS MODULES
+Options:
+        [--prefix[=DIR]]          set prefix
+        [--exec-prefix[=DIR]]     set exec prefix
+        [--version]               print version and exit
+        [--linkage]               print linkage mode (c, c++, objc)
+        [--list]                  print modules names and exit
+        [--libs]                  output linking flags
+        [--cflags]                output C compilation flags
+        [--cxxflags]              output C++ compilation flags
+        [--objcflags]             output Objective C compilation flags
+Modules:
+        vlc                       the main VLC object
+        plugin                    flags for plugin modules
+        builtin                   flags for built-in modules
+        pic                       flags for PIC code
+        MODULE                    any available module (dummy, gtk, avi, etc.)
+        libs                      flags for external libs
+BLAH
+        exit $1
+}
+
+register_flags()
+{
+  case "$1" in
+    a52tofloat32)
+      cppflags="${cppflags} "
+      libs="${libs} -la52"
+    ;;
+    access_ftp)
+      libs="${libs} -lws2_32"
+    ;;
+    access_http)
+      libs="${libs} -lz -lws2_32"
+    ;;
+    access_mms)
+      libs="${libs} -lws2_32"
+    ;;
+    access_output_rtmp)
+      libs="${libs} -lws2_32"
+    ;;
+    access_output_shout)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lshout -lvorbis -ltheora -lspeex -lm -logg -lws2_32"
+    ;;
+    access_output_udp)
+      libs="${libs} -lws2_32"
+    ;;
+    access_realrtsp)
+      libs="${libs} -lws2_32"
+    ;;
+    access_rtmp)
+      libs="${libs} -lws2_32"
+    ;;
+    access_tcp)
+      libs="${libs} -lws2_32"
+    ;;
+    access_udp)
+      libs="${libs} -lws2_32"
+    ;;
+    activex)
+      cppflags="${cppflags} -DUNICODE -D_UNICODE -D_MIDL_USE_GUIDDEF_"
+      cxxflags="${cxxflags} -fno-exceptions -DHAVE_OBJSAFE_HEADER"
+      linkage="c++"
+      libs="${libs} -lole32 -loleaut32 -luuid -lshlwapi -lgdi32"
+    ;;
+    aout_sdl)
+      cflags="${cflags} -D_GNU_SOURCE=1 -Dmain=SDL_main -IC:/Msys/1.0/win32/include/SDL"
+      libs="${libs} -mwindows -LC:/Msys/1.0/win32/lib -lmingw32 -lSDLmain -lSDL -liconv -lm -luser32 -lgdi32 -lwinmm -lwinmm"
+    ;;
+    audiobargraph_a)
+      libs="${libs} -lws2_32"
+    ;;
+    audioscrobbler)
+      libs="${libs} -lws2_32"
+    ;;
+    avcodec)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lavformat -lavcodec -lpsapi -lz -lgsm -lmp3lame -lm -lvpx -lavutil -lole32 -lshlwapi -luuid -LC:/Msys/1.0/win32/lib -lavcodec -lpsapi -lz -lgsm -lmp3lame -lm -lvpx -lavutil"
+    ;;
+    bda)
+      cxxflags="${cxxflags} "
+      linkage="c++"
+      libs="${libs} -lstrmiids -lole32 -loleaut32 -luuid"
+    ;;
+    caca)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lcaca -lz"
+    ;;
+    cdda)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} C:/Msys/1.0/win32/lib/libregex.a -LC:/Msys/1.0/win32/lib -lcddb -lregex -lws2_32 -lwinmm"
+    ;;
+    direct3d)
+      libs="${libs} -lole32 -lgdi32 -fcheck-new -mwindows -I C:AppsMicrosoft DirectX SDK June 2010Include -ld3d9 C:AppsMicrosoft DirectX SDK June 2010Libx86d3dx9.lib"
+    ;;
+    directx)
+      libs="${libs} -lole32 -lgdi32"
+    ;;
+    dmo)
+      libs="${libs} -lole32 -luuid"
+    ;;
+    dshow)
+      cxxflags="${cxxflags} "
+      linkage="c++"
+      libs="${libs} -lole32 -loleaut32 -luuid"
+    ;;
+    dtstofloat32)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include/libdca"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -ldca"
+    ;;
+    dvb)
+      libs="${libs} -ldvbpsi"
+    ;;
+    dvdnav)
+      cflags="${cflags} -I/usr/win32/include -I/usr/win32/include/libdvdread"
+      libs="${libs} -L/usr/win32/lib -ldvdnav -ldvdread -ldvdcss"
+    ;;
+    dvdread)
+      libs="${libs} -ldvdread -ldvdcss"
+    ;;
+    faad)
+      libs="${libs} -lfaad"
+    ;;
+    filesystem)
+      libs="${libs} -lshlwapi"
+    ;;
+    flac)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include/FLAC -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lFLAC -lm -logg -lws2_32"
+    ;;
+    fluidsynth)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lfluidsynth -ldsound -lwinmm"
+    ;;
+    freetype)
+      cppflags="${cppflags} -IC:/Msys/1.0/win32/include/freetype2 -IC:/Msys/1.0/win32/include -DHAVE_FONTCONFIG -IC:/Msys/1.0/win32/include/fribidi -DHAVE_FRIBIDI"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lfribidi -lfontconfig -LC:/Msys/1.0/win32/lib -lfreetype -lz -liconv -lz"
+    ;;
+    glwin32)
+      libs="${libs} -lole32 -lopengl32 -lgdi32"
+    ;;
+    gme)
+      libs="${libs} -lz"
+    ;;
+    gnutls)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include -I/usr/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lgnutls -L/usr/win32/lib -lgcrypt -lgpg-error -lz -lws2_32"
+    ;;
+    goom)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lgoom2"
+    ;;
+    growl_udp)
+      libs="${libs} -lws2_32"
+    ;;
+    kate)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lkate"
+    ;;
+    libass)
+      cppflags="${cppflags} -DHAVE_FONTCONFIG"
+      cflags="${cflags} -IC:/Msys/1.0/win32/include -IC:/Msys/1.0/win32/include/freetype2"
+      libs="${libs} -lfontconfig -LC:/Msys/1.0/win32/lib -L/usr/win32/lib -lass -lm -lfontconfig -lxml2 -liconv -lfreetype -lz"
+    ;;
+    libmpeg2)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include/mpeg2dec"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lmpeg2"
+    ;;
+    libvlccore)
+      cflags="${cflags} -I/usr/win32/include"
+      libs="${libs} -L/usr/win32/lib -lgcrypt -lgpg-error -lkernel32 -L/usr/win32/lib -liconv -lws2_32 -lnetapi32 -lwinmm"
+    ;;
+    live555)
+      cxxflags="${cxxflags} -I/usr/win32/live.com/BasicUsageEnvironment/include -I/usr/win32/live.com/groupsock/include -I/usr/win32/live.com/liveMedia/include -I/usr/win32/live.com/UsageEnvironment/include"
+      linkage="c++"
+      libs="${libs} -L/usr/win32/live.com/liveMedia -lliveMedia -L/usr/win32/live.com/groupsock -lgroupsock -L/usr/win32/live.com/BasicUsageEnvironment -lBasicUsageEnvironment -L/usr/win32/live.com/UsageEnvironment -lUsageEnvironment -lws2_32"
+    ;;
+    lua)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -llua -lm -lws2_32"
+    ;;
+    mkv)
+      libs="${libs} -lz"
+    ;;
+    mod)
+      cxxflags="${cxxflags} -IC:/Msys/1.0/win32/include -IC:/Msys/1.0/win32/include/libmodplug"
+      linkage="c++"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lmodplug -lstdc++ -lm"
+    ;;
+    mozilla)
+      cppflags="${cppflags} -DXPCOM_GLUE -DHAVE_CPP_MODERN_SPECIALIZE_TEMPLATE_SYNTAX -I/usr/win32/gecko-sdk/include"
+      libs="${libs} -lgdi32"
+    ;;
+    mp4)
+      libs="${libs} -lz"
+    ;;
+    mpgatofixed32)
+      libs="${libs} -lmad"
+    ;;
+    mux_ogg)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -logg"
+    ;;
+    mux_ts)
+      libs="${libs} -ldvbpsi"
+    ;;
+    netsync)
+      libs="${libs} -lws2_32 -lws2_32"
+    ;;
+    ogg)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -logg"
+    ;;
+    oldhttp)
+      libs="${libs} -lws2_32"
+    ;;
+    oldrc)
+      libs="${libs} -lws2_32"
+    ;;
+    png)
+      libs="${libs} -lpng -lz"
+    ;;
+    portaudio)
+      cflags="${cflags} -mthreads -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lportaudio -lwinmm -lm -lstdc++ -lole32 -luuid"
+    ;;
+    postproc)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lpostproc -lavutil"
+    ;;
+    projectm)
+      cxxflags="${cxxflags} -IC:/Msys/1.0/win32/include"
+      linkage="c++"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lprojectM -lMilkdropPresetFactory -lRenderer -lglu32 -lglew32 -lopengl32"
+    ;;
+    qt4)
+      cxxflags="${cxxflags} -DQT_NODLL -IC:/Msys/1.0/win32/include/qt4 -IC:/Msys/1.0/win32/include/qt4/QtCore -IC:/Msys/1.0/win32/include/qt4/QtGui"
+      linkage="c++"
+      libs="${libs} -Wl,--subsystem,windows -mwindows -LC:/Msys/1.0/win32/lib -lqjpeg -lqtaccessiblewidgets -lQtGui -lQtCore -lrpcrt4 -loleaut32 -lole32 -luuid -lwinspool -lwinmm -lshell32 -lcomctl32 -lcomdlg32 -ladvapi32 -lgdi32 -limm32 -lwsock32 -lole32"
+    ;;
+    remoteosd)
+      cflags="${cflags} -I/usr/win32/include"
+      libs="${libs} -L/usr/win32/lib -lgcrypt -lgpg-error -lws2_32"
+    ;;
+    rtp)
+      libs="${libs} -L/usr/win32/lib -lgcrypt -lgpg-error -lws2_32"
+    ;;
+    sap)
+      libs="${libs} -lz -lws2_32"
+    ;;
+    schroedinger)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include/schroedinger-1.0 -IC:/Msys/1.0/win32/include/orc-0.4"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lschroedinger-1.0 -lorc-0.4 -lm"
+    ;;
+    screen)
+      libs="${libs} -lgdi32"
+    ;;
+    sdl_image)
+      cflags="${cflags} -D_GNU_SOURCE=1 -Dmain=SDL_main -IC:/Msys/1.0/win32/include/SDL"
+      libs="${libs} -mwindows -LC:/Msys/1.0/win32/lib -lSDL_image -lmingw32 -lSDLmain -lSDL -liconv -lm -luser32 -lgdi32 -lwinmm -lwinmm"
+    ;;
+    skins2)
+      cppflags="${cppflags} -I${top_srcdir}/libs/unzip -IC:/Msys/1.0/win32/include/freetype2 -IC:/Msys/1.0/win32/include -IC:/Msys/1.0/win32/include/fribidi -DHAVE_FRIBIDI -U_OFF_T_ -U_off_t -Imodules/gui/skins2 -DWIN32_SKINS"
+      cxxflags="${cxxflags} -O2 -fno-rtti"
+      linkage="c++"
+      libs="${libs} -loleaut32 -lwinspool -lwinmm -lshell32 -lctl3d32 -ladvapi32 -lwsock32 -lgdi32 -lcomdlg32 -lole32 -luuid -lcomctl32 -LC:/Msys/1.0/win32/lib -lfribidi -LC:/Msys/1.0/win32/lib -lfreetype -lz ${top_builddir}/libs/unzip/libunzip.la -lz -lm"
+    ;;
+    speex)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -logg -lspeex -lm"
+    ;;
+    stream_out_raop)
+      cflags="${cflags} -I/usr/win32/include"
+      libs="${libs} -L/usr/win32/lib -lgcrypt -lgpg-error -lgpg-error -lws2_32"
+    ;;
+    stream_out_rtp)
+      libs="${libs} -L/usr/win32/lib -lgcrypt -lgpg-error -lws2_32"
+    ;;
+    stream_out_standard)
+      libs="${libs} -lws2_32"
+    ;;
+    swscale)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lswscale -lavutil"
+    ;;
+    theora)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -ltheora -logg"
+    ;;
+    ts)
+      libs="${libs} -ldvbpsi -lws2_32"
+    ;;
+    twolame)
+      cppflags="${cppflags} -DLIBTWOLAME_STATIC"
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -ltwolame"
+    ;;
+    unzip)
+      libs="${libs} -lz"
+    ;;
+    vcdx)
+      libs="${libs} -lwinmm"
+    ;;
+    vlc)
+      ldflags="${ldflags} -mwindows -L/usr/win32/lib"
+      libs="${libs} "
+    ;;
+    vod_rtsp)
+      libs="${libs} -lws2_32"
+    ;;
+    vorbis)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lvorbisenc -lvorbis -lm -logg"
+    ;;
+    vout_sdl)
+      cflags="${cflags} -D_GNU_SOURCE=1 -Dmain=SDL_main -IC:/Msys/1.0/win32/include/SDL"
+      libs="${libs} -mwindows -LC:/Msys/1.0/win32/lib -lmingw32 -lSDLmain -lSDL -liconv -lm -luser32 -lgdi32 -lwinmm -lwinmm"
+    ;;
+    waveout)
+      libs="${libs} -lwinmm"
+    ;;
+    win32text)
+      libs="${libs} -lgdi32"
+    ;;
+    wingdi)
+      libs="${libs} -lgdi32 -lole32"
+    ;;
+    x264)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include -DPTW32_STATIC_LIB"
+      ldflags="${ldflags} -Wl,-Bsymbolic -LC:/Msys/1.0/win32/lib -lx264 -lpthreadGC2 -lwsock32"
+    ;;
+    xml)
+      cflags="${cflags} -DLIBXML_STATIC -IC:/Msys/1.0/win32/include/libxml2"
+      libs="${libs} -LC:/Msys/1.0/win32/lib -lxml2"
+    ;;
+    zip)
+      cflags="${cflags} -I${top_srcdir}/libs/unzip"
+      libs="${libs} ${top_builddir}/libs/unzip/libunzip.la -lz"
+    ;;
+    zvbi)
+      cflags="${cflags} -IC:/Msys/1.0/win32/include"
+      libs="${libs} -lpthreadGC2 /usr/win32/lib/libiconv.a -LC:/Msys/1.0/win32/lib -L/usr/win32/lib -lzvbi -lpthreadGC2 -lwsock32 -lintl -liconv -lm -lpng -lz -lws2_32"
+    ;;
+    *)
+      ;;
+  esac
+}
+
+if test $# -eq 0; then
+        usage 1 1>&2
+fi
+
+if test "${top_builddir}" != ""; then
+  top_builddir="${top_builddir}/"
+elif test "${TOP_BUILDDIR}" != ""; then
+  top_builddir="${TOP_BUILDDIR}/"
+fi
+includes="${includes}"
+cppflags="${includes}"
+module=""
+linkage="c"
+
+#
+#  On Linux and Solaris, activate 64-bit off_t (by default under BSD)
+#
+cppflags="${cppflags} -D_FILE_OFFSET_BITS=64 -D__USE_UNIX98 -D_REENTRANT -D_THREAD_SAFE"
+
+#
+#  Various additional defines
+#
+if [ "${debug}" = yes ]; then
+  cflags="${cflags} -g"
+  cxxflags="${cxxflags} -g"
+  objcflags="${objcflags} -g"
+  ldflags="${ldflags} -g"
+fi
+if [ "${cprof}" = yes ]; then
+  cflags="${cflags} -finstrument-functions"
+  cxxflags="${cxxflags} -finstrument-functions"
+  objcflags="${objcflags} -finstrument-functions"
+fi
+if [ "${gprof}" = yes ]; then
+  cflags="${cflags} -pg"
+  cxxflags="${cxxflags} -pg"
+  objcflags="${objcflags} -pg"
+  ldflags="${ldflags} -pg"
+fi
+if [ "${optim}" = size ]; then
+  cflags="${cflags} ${cflags_optim_size} ${cflags_tuning}"
+  cxxflags="${cxxflags} ${cflags_optim_size} ${cflags_tuning}"
+  objcflags="${objcflags} ${cflags_optim_size} ${cflags_tuning}"
+  if [ "${debug}" != yes -a "${gprof}" != yes -a "${cprof}" != yes ]; then
+    cflags="${cflags} ${cflags_optim_nodebug}"
+    cxxflags="${cxxflags} ${cflags_optim_nodebug}"
+    objcflags="${objcflags} ${cflags_optim_nodebug}"
+  fi
+elif [ "${optim}" = speed ]; then
+  cflags="${cflags} ${cflags_optim_speed} ${cflags_tuning}"
+  cxxflags="${cxxflags} ${cflags_optim_speed} ${cflags_tuning}"
+  objcflags="${objcflags} ${cflags_optim_speed} ${cflags_tuning}"
+  if [ "${debug}" != yes -a "${gprof}" != yes -a "${cprof}" != yes ]; then
+    cflags="${cflags} ${cflags_optim_nodebug}"
+    cxxflags="${cxxflags} ${cflags_optim_nodebug}"
+    objcflags="${objcflags} ${cflags_optim_nodebug}"
+  fi
+else
+  cflags="${cflags} ${cflags_nooptim}"
+  cxxflags="${cxxflags} ${cflags_nooptim}"
+  objcflags="${objcflags} ${cflags_nooptim}"
+fi
+
+#
+#  The main argument loop
+#
+while test $# -gt 0; do
+  case "$1" in
+  -*=*) optarg=`echo "$1" | sed 's/-[_a-zA-Z0-9\-]*=//'` ;;
+  *) optarg= ;;
+  esac
+
+  # Mangle plugin name, if applicable
+  # This is just a convenience hack for modules/common.am
+  tgt="$1"
+  tgt="${tgt##*/}"
+  case "$tgt" in
+    lib*_plugin_la-*.lo)
+      tgt="${tgt#*lib}"
+      tgt="${tgt%_plugin_la-*.lo}"
+      ;;
+    lib*_plugin.la)
+      tgt="${tgt#lib}"
+      tgt="${tgt%_plugin.la}"
+      ;;
+    *)
+      ;;
+  esac
+
+  case "$tgt" in
+    --prefix=*)
+      prefix="${optarg}"
+      if test "${exec_prefix_set}" = no ; then
+        exec_prefix="${optarg}"
+      fi
+      ;;
+    --prefix)
+      echo_prefix=yes
+      ;;
+    --exec-prefix=*)
+      exec_prefix="${optarg}"
+      exec_prefix_set=yes
+      ;;
+    --exec-prefix)
+      echo_exec_prefix=yes
+      ;;
+    --version)
+      echo "@VERSION@"
+      exit 0
+      ;;
+    --linkage)
+      echo_linkage=yes
+      ;;
+    --list)
+      echo_list=yes
+      ;;
+    --cflags)
+      echo_cflags=yes
+      ;;
+    --cppflags)
+      echo_cppflags=yes
+      ;;
+    --cxxflags)
+      echo_cxxflags=yes
+      ;;
+    --objcflags)
+      echo_objcflags=yes
+      ;;
+    --ldflags)
+      echo_ldflags=yes
+      ;;
+    --libs|-libs)
+      echo_libs=yes
+      ;;
+    -*)
+      usage 1 1>&1
+      ;;
+    libvlccore)
+      cppflags="${cppflags} -D__LIBVLC__ -I${top_builddir}src/misc"
+      ;;
+    plugin)
+      echo_plugin=yes
+      cppflags="${cppflags} -D__LIBVLC__ -D__PLUGIN__"
+      ;;
+    builtin)
+      echo_builtin=yes
+      cppflags="${cppflags} -D__LIBVLC__ -D__BUILTIN__"
+      ;;
+    pic)
+      ;;
+    mozilla)
+      ;;
+    *)
+      module="$tgt"
+      ;;
+  esac
+
+  # Register per-module *FLAGS
+  register_flags "$tgt"
+
+  shift
+done
+
+#
+#  If a module was requested, use its name
+#
+if test -n "${module}"; then
+  cppflags="${cppflags} -DMODULE_NAME=${module} -DMODULE_NAME_IS_${module} -DMODULE_STRING=\"${module}\""
+fi
+
+#
+#  Output what we were asked
+#
+if test "${echo_linkage}" = yes; then
+  echo "${linkage}"
+  exit 0
+fi
+
+if test "${echo_list}" = yes; then
+  if test "${echo_plugin}" = yes; then
+    echo "${plugins}"
+    printf '\n'
+  fi
+  if test "${echo_builtin}" = yes; then
+    echo "${builtins}"
+    printf '\n'
+  fi
+  exit 0
+fi
+
+if test "${echo_prefix}" = yes; then
+  echo "${prefix}"
+fi
+if test "${echo_exec_prefix}" = yes; then
+  echo "${exec_prefix}"
+fi
+if test "${echo_cppflags}" = yes; then
+  echo "${cppflags}"
+fi
+if test "${echo_cflags}" = yes; then
+  echo "${cppflags} ${cflags}"
+fi
+if test "${echo_cxxflags}" = yes; then
+  echo "${cppflags} ${cxxflags}"
+fi
+if test "${echo_objcflags}" = yes; then
+  echo "${cppflags} ${objcflags}"
+fi
+if test "${echo_ldflags}" = yes; then
+  echo "${ldflags}"
+fi
+
+# Libs
+# There are 4 possibilities
+#  - We are a plugin or a builtin
+#  - We are building something from the inside (builtin)
+#       - Link with builtins in place
+#  If you want something shared from the inside (binding),
+#  you need "builtin vlc"
+if test "${echo_libs}" = yes; then
+  echo "${libs}"
+fi
